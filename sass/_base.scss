@@ -32,7 +32,7 @@ body {
 }
 
 .container {
-  height: 100vh;
+  min-height: 100vh;
   background-image: linear-gradient($color-bg, $color-bg),
     url(../../img/bg-big.svg);
   background-repeat: repeat-x;

@@ -21,11 +21,7 @@ body {
 
 .container {
   min-height: 100vh;
-  background-image: linear-gradient(
-      hsla(225, 100%, 94%, 0.8),
-      hsla(225, 100%, 94%, 0.8)
-    ),
-    url(../img/bg-big.svg);
+  background-image: linear-gradient(hsla(225, 100%, 94%, 0.8), hsla(225, 100%, 94%, 0.8)), url(../../img/bg-big.svg);
   background-repeat: repeat-x;
   display: flex;
   align-items: center;
@@ -117,4 +113,4 @@ body {
   transition: all 0.3s;
   opacity: 1;
   cursor: pointer;
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
