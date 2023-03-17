@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.container {
+  height: 100vh;
+  background-image: linear-gradient(
+      hsla(225, 100%, 94%, 0.8),
+      hsla(225, 100%, 94%, 0.8)
+    ),
+    url(../img/bg-big.svg);
+  background-repeat: repeat-x;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-1 {
+  color: hsl(223, 47%, 23%);
+  text-align: center;
+  margin-top: 2.8rem;
+  font-weight: 900;
+}
+
+.heading-3 {
+  color: hsl(223, 47%, 23%);
+}
+
+.card-text {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 1rem 3.5rem;
+}
+
+.link {
+  color: hsl(245, 75%, 52%);
+  font-weight: 900;
+  transition: all 0.3s;
+}
+.link:hover {
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+.card {
+  border-radius: 1rem;
+  width: 28rem;
+  height: 75vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.card > img {
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.price__box {
+  background-color: hsl(225, 100%, 98%);
+  padding: 2rem 1rem;
+  margin: 0 3rem;
+  border-radius: 0.8rem;
+  display: grid;
+  grid-template-columns: max-content 1fr max-content;
+  gap: 12px;
+  align-items: center;
+}
+
+.card__footer {
+  margin: 1.5rem 3rem;
+}
+.card__footer > .btn {
+  font-size: 1.05rem;
+  font-weight: 700;
+  width: 100%;
+  border: none;
+  color: #fff;
+  background-color: hsl(245, 75%, 52%);
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 8px 35px hsla(245, 75%, 52%, 0.6);
+  justify-self: stretch;
+  transition: all 0.3s;
+}
+.card__footer > .btn:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+.card__footer > p {
+  text-align: center;
+  margin-top: 2rem;
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+  opacity: 0.75;
+}
+.card__footer > p:hover {
+  transition: all 0.3s;
+  opacity: 1;
+  cursor: pointer;
+} /*# sourceMappingURL=main.css.map */

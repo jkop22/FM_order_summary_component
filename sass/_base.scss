@@ -1,0 +1,42 @@
+// color variables
+
+$color-primary-pale: hsl(225, 100%, 94%);
+$color-primary-bright: hsl(245, 75%, 52%); // tlacitko
+
+$color-bg: hsla(225, 100%, 94%, 0.8);
+
+$color-very-pale: hsl(225, 100%, 98%); // asi pozadi divu s notou
+$color-desaturated-blue: hsl(224, 23%, 55%); // zakladni pismo
+$color-dark-blue: hsl(223, 47%, 23%); // nadpisy
+
+//reset
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  color: $color-desaturated-blue;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.container {
+  height: 100vh;
+  background-image: linear-gradient($color-bg, $color-bg),
+    url(../../img/bg-big.svg);
+  background-repeat: repeat-x;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
